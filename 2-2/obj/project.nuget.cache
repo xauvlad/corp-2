@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "dgSpecHash": "LIiJhOza0fR/LlQtsXWS1b7ELtDPbBy0ihvpmnF13MX4CBMoTFGj8CWEpzJxT7wkooOFHk1vvbQQ5e5TfjUkkg==",
+  "success": true,
+  "projectFilePath": "d:\\vuz\\corp\\2-2\\2-2\\2-2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.9.0.0-preview.1.24081.2.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.abstractions.9.0.0-preview.1.24081.2.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.analyzers.9.0.0-preview.1.24081.2.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.relational.9.0.0-preview.1.24081.2.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0-preview.1.24080.9\\microsoft.extensions.caching.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.caching.memory\\9.0.0-preview.1.24080.9\\microsoft.extensions.caching.memory.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.1.24080.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0-preview.1.24080.9\\microsoft.extensions.dependencyinjection.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0-preview.1.24080.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.logging\\9.0.0-preview.1.24080.9\\microsoft.extensions.logging.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0-preview.1.24080.9\\microsoft.extensions.logging.abstractions.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.options\\9.0.0-preview.1.24080.9\\microsoft.extensions.options.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-preview.1.24080.9\\microsoft.extensions.primitives.9.0.0-preview.1.24080.9.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
+    "C:\\Users\\hayvl\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\9.0.0-preview.1\\npgsql.entityframeworkcore.postgresql.9.0.0-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}
