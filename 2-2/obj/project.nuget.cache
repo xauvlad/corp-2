@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LIiJhOza0fR/LlQtsXWS1b7ELtDPbBy0ihvpmnF13MX4CBMoTFGj8CWEpzJxT7wkooOFHk1vvbQQ5e5TfjUkkg==",
+  "dgSpecHash": "MiHaCYPCmlAcDpDIxnqF/SJ8SX3pM8UI12fCR/GOJTNMkby5eh6uQVLJygjZFixSnUraYAB0qSJY0/E6+cc5TA==",
   "success": true,
-  "projectFilePath": "d:\\vuz\\corp\\2-2\\2-2\\2-2.csproj",
+  "projectFilePath": "D:\\vuz\\corp\\2-2\\corp-2\\2-2\\2-2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.9.0.0-preview.1.24081.2.nupkg.sha512",
     "C:\\Users\\hayvl\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.0-preview.1.24081.2\\microsoft.entityframeworkcore.abstractions.9.0.0-preview.1.24081.2.nupkg.sha512",

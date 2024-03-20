@@ -5,6 +5,7 @@ void task1() {
     decimal minCost = 25000000;
     decimal maxCost = 35000000;
     string regionName = "Волжский";
+    Console.WriteLine("Задание 1:");
 
     using (var context = new AppDbContext())
     {
@@ -21,6 +22,7 @@ void task1() {
 
 void task2(){
     int num = 2;
+    Console.WriteLine("Задание 2:");
     using (var context = new AppDbContext()) 
     {
         var relAgents = context.Deals
@@ -28,7 +30,7 @@ void task2(){
             .Select(s => new {Surname = s.Agent.Surname, Name = s.Agent.Name, Patronymic = s.Agent.Patronymic});
         foreach (var ag in relAgents)
             {
-                Console.WriteLine($"Код: {ag.Surname}, адрес: {ag.Name}, стоимость: {ag.Patronymic}");
+                Console.WriteLine($"Фамилия: {ag.Surname}, имя: {ag.Name}, отчество: {ag.Patronymic}");
             }
     }
 
@@ -36,6 +38,7 @@ void task2(){
 
 void task3() 
 {
+    Console.WriteLine("Задание 3:");
     int roomNumber = 2;
         string regionName = "Октябрьский";
 
@@ -49,12 +52,13 @@ void task3()
                       (estate, deal) => deal.Cost)
                 .Sum();
 
-            Console.WriteLine($"Общая стоимость объектов недвижимости в районе \"{regionName}\", имеющих {roomNumber} комнат, составляет {totalCost}");
+            Console.WriteLine($"Общая стоимость объектов недвижимости в районе \"{regionName}\", имеющих {roomNumber} комнаты, составляет {totalCost}");
         }
 }
 
 void task4()
 {
+    Console.WriteLine("Задание 4:");
     string realtorID = "Иванов";
 
         using (var context = new AppDbContext())
@@ -73,6 +77,7 @@ void task4()
 
 void task5()
 {
+    Console.WriteLine("Задание 5:");
     string realtorName = "Иванов";
     string propertyType = "апартаменты";
     string criterionName = "безопасность";
@@ -96,6 +101,7 @@ void task5()
 
 void task6()
 {
+    Console.WriteLine("Задание 6:");
     int lvl = 2;
     string estTip = "квартира";
     using (var context = new AppDbContext()) {
@@ -105,13 +111,14 @@ void task6()
             .GroupBy(info => info.Region)
             .Select(s => new {Region = s.Key, cnt = s.Count()});
         foreach (var d in estCnt){
-            Console.WriteLine($"Район {d.Region} имеет {d.cnt} квартир на втором этаже");
+            Console.WriteLine($"Район {d.Region.Name} имеет {d.cnt} квартир на втором этаже");
         }
     }
 }
 
 void task7()
 {
+    Console.WriteLine("Задание 7:");
     string buildType = "квартира";
     using (var context = new AppDbContext()) {
         var kvCnt = context.Deals
@@ -126,6 +133,7 @@ void task7()
 
 void task8()
 {
+    Console.WriteLine("Задание 8:");
     using (var context = new AppDbContext())
     {
         var expObj = context.Estates
@@ -142,6 +150,7 @@ void task8()
 
 void task9()
 {
+    Console.WriteLine("Задание 9:");
     using (var context = new AppDbContext())
     {
         var ans = context.Deals
@@ -156,6 +165,7 @@ void task9()
 
 void task10()
 {
+    Console.WriteLine("Задание 10:");
     using (var context = new AppDbContext())
     {
         var ch = context.Estates
@@ -170,6 +180,7 @@ void task10()
 
 void task11()
 {
+    Console.WriteLine("Задание 11:");
     using (var context = new AppDbContext()) {
         var rel = context.Deals
             .Join(context.Estates,
@@ -186,6 +197,7 @@ void task11()
 
 void task12()
 {
+    Console.WriteLine("Задание 12:");
     using (var context = new AppDbContext())
         {
             var averageCostPerSquareMeterByRegion = context.Estates
@@ -209,6 +221,7 @@ void task12()
 
 void task13()
 {
+    Console.WriteLine("Задание 13:");
     int curYear = 2024;
     using (var context = new AppDbContext())
         {
@@ -229,6 +242,7 @@ void task13()
 
 void task14()
 {
+    Console.WriteLine("Задание 14:");
     int currentYear = DateTime.Now.Year;
         int previousYear = currentYear - 1;
 
@@ -272,6 +286,7 @@ void task14()
 
 void task15() 
 {
+     Console.WriteLine("Задание 15:");
      int estateId = 1000001;
 
         using (var context = new AppDbContext())
@@ -319,4 +334,28 @@ void task15()
         }
 }
 
+void newtask()
+{
+    using (var context = new AppDbContext)
+    {
+        var ans = context.
+        ;
+    }
+}
+
+task1();
+task2();
+task3();
+task4();
+task5();
+task6();
+task7();
+task8();
+task9();
+task10();
+task11();
 task12();
+task13();
+task14();
+task15();
+newtask();

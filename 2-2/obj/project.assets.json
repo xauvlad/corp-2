@@ -698,11 +698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vuz\\corp\\2-2\\2-2\\2-2.csproj",
+      "projectUniqueName": "D:\\vuz\\corp\\2-2\\corp-2\\2-2\\2-2.csproj",
       "projectName": "2-2",
-      "projectPath": "D:\\vuz\\corp\\2-2\\2-2\\2-2.csproj",
+      "projectPath": "D:\\vuz\\corp\\2-2\\corp-2\\2-2\\2-2.csproj",
       "packagesPath": "C:\\Users\\hayvl\\.nuget\\packages\\",
-      "outputPath": "D:\\vuz\\corp\\2-2\\2-2\\obj\\",
+      "outputPath": "D:\\vuz\\corp\\2-2\\corp-2\\2-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hayvl\\AppData\\Roaming\\NuGet\\NuGet.Config"
